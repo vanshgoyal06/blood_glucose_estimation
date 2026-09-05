@@ -1,0 +1,12 @@
+Model,Evaluation,RMSE,MAE,R2,Notes
+Previous BGL persistence,All usable observations,5.1765,0.9206,0.9857,84.06% exact
+CatBoost 50-row rolling,Legacy validation,16.3465,8.8191,0.862,Previously reported
+CatBoost 100-row rolling,Legacy validation,12.5176,6.0134,0.9199,Previously reported
+CatBoost 150-row rolling,Legacy validation,10.3802,4.4542,0.9454,Previously reported
+CatBoost 200-row rolling,Legacy validation,8.5374,3.6258,0.9635,Previously reported
+CatBoost 250-row rolling,Legacy validation,7.8812,3.1898,0.9683,Historical primary result
+Two-stage CatBoost,Legacy validation,9.4778,1.8949,0.9541,High-BGL RMSE ≈0.31
+Probability-weighted two-stage,Legacy validation,9.2506,2.3553,0.9563,High-BGL RMSE ≈4.24
+CatBoost 100-row participant-level,Unseen participant validation,40.0219,21.058,0.1676,Previously reported
+CatBoost 250-row participant-level,Packaging-time validation,41.3116,19.9567,0.121,New audit result
+CatBoost 250-row participant-level,Packaging-time test,33.6528,17.3586,0.4139,New audit result; one test group

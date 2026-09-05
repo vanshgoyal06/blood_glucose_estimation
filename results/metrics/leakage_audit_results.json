@@ -1,0 +1,69 @@
+{
+  "dataset": {
+    "raw_rows": 16969,
+    "duplicates_removed": 272,
+    "clean_rows": 16697,
+    "unique_age_groups": 13,
+    "blocks": 701
+  },
+  "past_only_representative_check": {
+    "index": 1984,
+    "age": 9,
+    "history_size": 250,
+    "model_rolling_mean": 102.548,
+    "manual_past_only_mean": 102.548,
+    "manual_including_current_mean": 102.544,
+    "model_vs_past_only_abs_diff": 0.0,
+    "model_vs_including_current_abs_diff": 0.0040000000000048885
+  },
+  "legacy_split_history_overlap": {
+    "validation_rows_checked": 2189,
+    "validation_rows_with_training_rows_in_250_history": 2189,
+    "percentage": 100.0,
+    "mean_training_rows_in_history": 174.5285518501599,
+    "max_training_rows_in_history": 197
+  },
+  "clean_participant_split": {
+    "train_participants": [
+      14,
+      15,
+      19,
+      46
+    ],
+    "validation_participants": [
+      9,
+      55
+    ],
+    "test_participants": [
+      76
+    ],
+    "train_shape": [
+      4700,
+      10
+    ],
+    "validation_shape": [
+      7572,
+      10
+    ],
+    "test_shape": [
+      2212,
+      10
+    ],
+    "validation": {
+      "RMSE": 41.31161929691893,
+      "MAE": 19.95669689941666,
+      "R2": 0.12101654194371436
+    },
+    "test": {
+      "RMSE": 33.652788538392954,
+      "MAE": 17.35859893732919,
+      "R2": 0.4138838025102559
+    },
+    "status": "packaging-time audit result; not previously reported in the conversation"
+  },
+  "block_structure": {
+    "warning": "Block_ID is derived from contiguous Age + diabetic-status runs. Its semantic meaning as a session/device recording is not established.",
+    "blocks_ge_250": 3,
+    "rows_in_blocks_ge_250": 2204
+  }
+}

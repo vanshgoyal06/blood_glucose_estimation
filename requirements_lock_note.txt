@@ -1,0 +1,1 @@
+Packaging environment used Python 3.13.5. requirements.txt intentionally specifies minimum compatible versions rather than a generated lock file.

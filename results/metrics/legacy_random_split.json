@@ -1,0 +1,19 @@
+{
+  "experiment": "250-row single CatBoost, legacy row-level split",
+  "duplicates_removed": 272,
+  "rows_after_cleaning": 16697,
+  "train_samples": 10113,
+  "validation_samples": 2189,
+  "test_samples": 2182,
+  "validation": {
+    "RMSE": 7.8812336027397345,
+    "MAE": 3.189838397816726,
+    "R2": 0.9682877470214366
+  },
+  "test": {
+    "RMSE": 8.093505563798855,
+    "MAE": 3.306314439326643,
+    "R2": 0.9657833815854433
+  },
+  "note": "The validation metrics are the reported historical champion. The test metrics are newly computed by this packaging run and are not a previously reported project result."
+}
