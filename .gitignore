@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+outputs/models/*
+outputs/figures/*
+outputs/results/*
+!outputs/models/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/results/.gitkeep
+.ipynb_checkpoints/
